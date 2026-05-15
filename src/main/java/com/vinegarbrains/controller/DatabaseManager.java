@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class DatabaseManager {
     // 1. Database credentials
-    private static final String URL = "jdbc:mysql://localhost:3306/movie_db";
+    private static final String URL = "jdbc:mysql://localhost:3306/vinegarbrains";
     private static final String USER = "root"; 
-    private static final String PASSWORD = "your_password_here"; // Replace with your MySQL password
+    private static final String PASSWORD = "6663629"; // Replace with your MySQL password
 
     private static Connection connection = null;
 
