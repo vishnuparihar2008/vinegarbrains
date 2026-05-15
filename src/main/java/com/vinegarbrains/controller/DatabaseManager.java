@@ -1,6 +1,7 @@
 package com.vinegarbrains.controller;
 
 import java.sql.*;
+import com.vinegarbrains.model.*;;
 
 public class DatabaseManager {
     // 1. Database credentials
@@ -32,6 +33,10 @@ public class DatabaseManager {
             e.printStackTrace();
         }
         return connection;
+    }
+
+    public void saveMovie(Movies m){
+        
     }
 
     // 4. Close connection method (Use when closing the app)
