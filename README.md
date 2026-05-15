@@ -1,10 +1,10 @@
 # THIS IS A JAVA PROJECT:
 
 ## FRONT - END:
-** JavaFX **
+<strong>JavaFX</strong>
 
 ## BACK - END:
-** JDBC **
+<strong>JDBC</strong>
 
 # DATABASE SERVER:
-** MySQL **
+<strong>MySQL</strong>
