@@ -27,15 +27,9 @@ package com.vinegarbrains;
 
 // This tells App.java exactly where to find the other file
 import com.vinegarbrains.controller.DatabaseManager;
+import com.vinegarbrains.model.Movies;
+import java.time.LocalDate;
 
 public class App {
-    public static void main(String[] args) {
-        try {
-            if (DatabaseManager.getConnection() != null) {
-                System.out.println("Connection Successful!");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    
 }
